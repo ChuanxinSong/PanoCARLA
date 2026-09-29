@@ -1,0 +1,30 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.conda/
+.env
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated recordings and caches
+_out/
+cache/
+Record_result*/
+test_output*/
+*.log
+
+# External CARLA installation and installers
+CARLA_*/
+CarlaUE4/
+Engine/
+*.exe
+*.whl
+*.egg
+*.zip
+*.tar.gz
