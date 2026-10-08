@@ -86,3 +86,5 @@ python vis_trajectory.py --map Town05 --port 3346 _out/YOUR_TRAJECTORY.csv
 Inspect the trajectory in CARLA to confirm it follows the intended roads and reaches the destination. Adjust the route points and record again if needed. CARLA's autonomous driving does not always follow the intended route, so some fine-tuning of the route points is usually necessary.
 
 CSV columns are `frame,timestamp,x,y,z,pitch,yaw,roll`. Positions are in meters, rotations in degrees, and timestamps in simulation seconds. Transfer the checked CSV to Linux together with its map name, CARLA version, FPS, and route ID.
+
+Continue with the [Linux Stage 2 guide](../stage2/README.md) to replay the CSV and capture panoramic RGB-D data.

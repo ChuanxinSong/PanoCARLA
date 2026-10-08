@@ -1,0 +1,9 @@
+# Python 3.11. Install CUDA-enabled PyTorch first as shown in README.
+carla==0.9.16
+numpy>=1.26,<3
+pandas>=2,<3
+Pillow>=10,<12
+opencv-python-headless>=4.10,<5
+tqdm>=4.66,<5
+einops>=0.8,<0.9
+py360convert==1.0.4

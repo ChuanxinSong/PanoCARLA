@@ -17,6 +17,8 @@ _out/
 cache/
 Record_result*/
 test_output*/
+recordings/
+trajectories/
 *.log
 
 # External CARLA installation and installers

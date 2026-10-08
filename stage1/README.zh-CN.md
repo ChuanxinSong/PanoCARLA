@@ -86,3 +86,5 @@ python vis_trajectory.py --map Town05 --port 3346 _out/实际文件名.csv
 在 CARLA 中检查轨迹是否经过预期道路、到达预期终点。不符合要求则调整路径点重新录制。注意carla的自动驾驶系统没有那么好用，通常需要一些路径点的微调。
 
 CSV 包含 `frame,timestamp,x,y,z,pitch,yaw,roll`。位置单位为米、旋转为度、时间为仿真秒。将检查通过的 CSV 交给 Linux 端，并记录对应地图、CARLA 版本、FPS 和路线编号。
+
+下一步请阅读 [Linux Stage 2 使用说明](../stage2/README.zh-CN.md)，沿 CSV 回放采集 RGB-D 全景数据。
